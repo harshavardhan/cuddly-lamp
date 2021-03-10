@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web Client</title>
+    </head>
+    <body>
+        <h2>Get your hello msg?</h2>
+        <form>
+            <label for="name">Name</label><br />
+            <input type="text" id="name" name="name" value="world" /><br />
+            <input type="submit" id="submit" value="Submit" />
+        </form>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.2/socket.io.js"></script>
+        <script src="script.js"></script>
+        <h2>Updates from the undeterred server below!</h2>
+        <p id="updates">No updates yet...</p>
+    </body>
+</html>
